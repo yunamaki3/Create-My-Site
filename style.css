@@ -80,6 +80,8 @@ main {
   margin: 0 auto;
 }
 
+.box
+
 .card {
   margin-top: 15px;
   margin-left: 15px;
@@ -116,4 +118,36 @@ main {
   bottom: 15px;
   font-size: 20px;
   text-shadow: 0 0 1px rgba(0,0,0,.5);
+}
+
+.list-box {
+  float: left;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  position: relative;
+}
+
+.list-comment {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.list-body {
+  color: gray;
+  font-size: 12px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-title {
+  font-size: 18px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

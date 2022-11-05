@@ -151,3 +151,7 @@ main {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.postbox {
+  text-align: start;
+}

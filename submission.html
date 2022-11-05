@@ -26,7 +26,7 @@
       <section class="inmain">
         <h1>新規投稿</h1>
         <div class="border_line_center"></div>
-        <div class="box">
+        <div class="postbox">
           <%= form_with model: @list, url:'/todolists', local:ture do |f|%>
             <h4>タイトル</h4>
             <%= f.text_field :title%>
